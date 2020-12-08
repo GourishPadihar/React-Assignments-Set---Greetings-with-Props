@@ -1,7 +1,7 @@
 // write code for Welcome component here
 import React from "react";
 
-function greeting(props){
+function Welcome(props){
   const name=props.name;
 return(
 <>
@@ -10,4 +10,4 @@ return(
   </>
 );
 }
-export greeting;
+export default Welcome;
